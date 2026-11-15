@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>NFSU1ProfileMaster</AssemblyName>
+    <RootNamespace>NFSU1ProfileMaster</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Metti icona.ico accanto al .csproj: viene incorporata nell'exe -->
+    <ApplicationIcon Condition="Exists('icona.ico')">icona.ico</ApplicationIcon>
+
+    <!-- Metadati: un exe con Company/Product/Version coerenti e' trattato meglio dagli antivirus -->
+    <Company>GabriLex</Company>
+    <Product>NFSU1 Profiles Master</Product>
+    <Description>Savegame editor for Need for Speed Underground</Description>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Copyright>GabriLex</Copyright>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+
+    <!-- Publish: un solo file, NIENTE UPX/packer/compressione/trimming -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>none</DebugType>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+</Project>
