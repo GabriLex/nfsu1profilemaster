@@ -19,8 +19,15 @@ A lightweight, user-friendly C sharp utility designed to edit savegames in **Nee
 * **UNLOCK PARTS OPTION**
 * **MANUAL SAVEGAMES LOAD**
 * **Player name and money reading**
+* **Savegame name editing and profile name editing**
 
 Thanks MIFT0 for the patches
+
+NFSU1WEB stuff
+
+Profile manager
+
+
 ( i have reverse eng his program with Claude AI)
 
 ## 📦 Compiling to .exe
